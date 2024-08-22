@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+.sub-container{
+    width: 40%;
+    background-color: white;
+    position: static;
+    /* margin: 100px 600px 100px 600px; */
+    border-radius: 30px;
+    padding: 25px;
+}
+div.image{
+    width: 100%;
+    margin-bottom: 1.75rem;
+}
+img{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+body{
+    display: flex;
+    background-color:#F3E5D8 ;
+    width: 100vw;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 100px;
+}
+
+
+.first-section h1 {
+    margin-bottom: 1.5rem;
+}
+.first-section p{
+    color: #c5c2be;
+    margin-bottom: 1.5rem;
+}
+
+div.second-section{
+    background-color: #fff7fc;
+    padding: 16px 20px;
+    margin-bottom: 1.5rem;
+}
+.second-section p{
+    font-size: 24px;
+    color: #7f3a57;
+    margin-bottom: 10px;
+}
+.second-section ul{
+    margin-left:16px ;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-image: #7f3a57;
+}
+.rd-section h2{
+    color: #8c5544 ;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+
+}
+.rd-section ul{
+margin-left: 16px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+margin-bottom: 30px;
+}
+.th-section h2{
+    color: #8c5544;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.th-section ol{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+.fth-section h1{
+    color: #8c5544;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    margin-top: 10px;
+
+}
+.fth-section .h{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    border-bottom: 1px solid grey;
+    padding-block: 16px;
+    padding-left:8px ;
+}
+.fth-section .h > p:nth-child(1){
+    width: 100px;
+    color: #c5c2be
+}
+
+
+.fth-section .h:last-child{
+border-bottom: none;
+}
+.fth-section .h>p:nth-child(2){
+    color: #8c5544;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        margin-block: 0;
+    }
+    .sub-container{
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width:426px){
+    .sub-container{
+        padding: 0;
+    }
+    div.first-section{
+        padding-inline: 25px;
+    }
+    div.second-section{
+        margin-inline: 25px;
+    }
+    .rd-section{
+        padding-inline: 25px;
+    }
+    .th-section{
+        padding-inline: 25px;
+    }
+    .fth-section{
+        padding-inline: 25px;
+    }
+    .fth-section .h{
+        gap: 100px;
+    }
+}
